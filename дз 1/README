@@ -1,0 +1,23 @@
+Запуск программы через любой онлайн-компилятор Python или PyCharm.
+Тесты:
+1. L1 = ["aaaaaaaaaaaabbbbdfeuuuuuuuuubffffff", "sdfghjklppoiuytresxcvbhj", "ijklmno"]
+L2 = ["wertyuiopojhgfd", "edrftyuioplkjhgfdsdcfvgbh"]
+Вывод без ошибок
+2.L1 = [1234, "sdfghjklppoiuytresxcvbhj", "ijklmno"]
+L2 = ["wertyuiopojhgfd", "edrftyuioplkjhgfdsdcfvgbh"]
+Вывод сообщения об ошибке
+3. L1 = ["abc", "defgh", "ijklmno"]
+L2 = ["1234", "56789"] 
+Вывод без ошибок
+4. L1 = ['h', "defgh", "ijklmno"]
+L2 = ['h', "56789"] 
+Вывод без ошибок
+5. L1 = ["abcsdfghjkliuytred", "defgsdfghjh", "ijklmnosdfg"]
+L2 = ["12dfg34", "5678dfg9", "uvwxygtyt4567yz"]
+Вывод без ошибок
+6.L1 = ["hjxwkqzhvpqitvsltzoufuqxarwvkozoqmhbqjkhknkchzvwfjczcdchvgpbymldabspkhncobzmtlrzeprfpabxfabcsdfghjkliuytred", "defgsdfghjh", "ijklmnosdfg"]
+L2 = ["12dfg34", "5678dfg9", "uvwxygtyt4567yz"]
+Ошибка: Входящая цепочка в L1 не типа string или содержит более 100 символов
+7.L1 = ["fghioigf", "defgsdfghjh", "ijklmnosdfg"]
+L2 = ["1asdfghgfgbtdderty2dfg34csafmspebkxctamsgupgkngegbktqjvjnqzpdltpyqrdadwuqgnjimkdbpkezsujnlxcxjeipfrkgsehrjhfukji", "5678dfg9", "uvwxygtyt4567yz"]
+Ошибка: Входящая цепочка в L2 не типа string или содержит более 100 символов
